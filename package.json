@@ -1,0 +1,13 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "Advice generator app coding challenge",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tyran0",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
