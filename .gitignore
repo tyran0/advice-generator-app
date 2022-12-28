@@ -1,6 +1,9 @@
 # Node.js
 node_modules/
 
+# Project
+dist/css
+
 # Frontend Mentor
 design/
 style-guide.md
