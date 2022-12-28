@@ -8,6 +8,7 @@
   "author": "tyran0",
   "license": "MIT",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "sass": "^1.57.1"
   }
 }
