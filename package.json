@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Advice generator app coding challenge",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass:watch": "npx sass -w --no-source-map src/sass:dist/css",
+    "sass:build": "npx sass -s compressed --no-source-map src/sass:dist/css",
+    "build": "npm run sass:build",
+    "serve": "npx http-server -a localhost",
+    "start": "npm run build && npm run serve -- -p 80",
+    "dev": "npm run serve -- -p 5500 -c-1"
   },
   "author": "tyran0",
   "license": "MIT",
