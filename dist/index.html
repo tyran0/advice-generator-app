@@ -12,11 +12,15 @@
 </head>
 <body>
     <main class="main">
-        <article data-id="0" class="advice">
+        <article class="advice">
+            <h2 class="visuallyHidden">
+                Generates advices using Advice Slip JSON API
+            </h2>
             <div class="advice_container">
                 <header class="advice_header">
-                    <span>ADVICE #</span>
-                    <span class="advice_id"></span>
+                    <p>ADVICE #
+                        <span class="advice_id"></span>
+                    </p>
                 </header>
                 <div class="advice_details">
                     <div class="copy">
@@ -30,7 +34,13 @@
                     <img src="./assets/images/pattern-divider-desktop.svg" alt="">
                 </picture>
             </div>
-            <button class="button advice_dice">
+            <button class="button advice_dice"
+                    aria-labelledby="advice-dice-label">
+                <span id="advice-dice-label"
+                      class="visuallyHidden"
+                      aria-hidden="true">
+                    Click to generate new advice
+                </span>
                 <img class="button_icon" src="./assets/images/icon-dice.svg" alt="">
             </button>
         </article>
