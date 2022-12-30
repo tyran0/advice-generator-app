@@ -21,7 +21,7 @@ function getAdviceSlip() {
 }
 
 function updateAdvice() {
-    const advice = document.querySelector('.advice[data-id="0"]');
+    const advice = document.querySelector('.advice');
     if (!advice) return;
 
     const adviceID = advice.querySelector('.advice_id');
