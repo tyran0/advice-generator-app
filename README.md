@@ -29,6 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
+| ![](screenshots/desktop.png) | ![](screenshots/mobile.png) |
+| ---------------------------- | --------------------------- |
+| Desktop version              | Mobile version              |
+
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
