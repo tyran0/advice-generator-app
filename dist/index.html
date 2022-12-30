@@ -6,11 +6,34 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <title>Frontend Mentor | Advice generator app</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="./js/main.js" defer></script>
     <!-- Challenge by Frontend Mentor. https://www.frontendmentor.io/ -->
     <!-- Coded by tyran0. https://github.com/tyran0 -->
 </head>
 <body>
-    Advice #<!-- Advice ID goes here -->
-    "<!-- Advice text goes here -->"
+    <main class="main">
+        <article data-id="0" class="advice">
+            <div class="advice_container">
+                <header class="advice_header">
+                    <span>ADVICE #</span>
+                    <span class="advice_id"></span>
+                </header>
+                <div class="advice_details">
+                    <div class="copy">
+                        <p class="copy_paragraph
+                                  advice_quote"></p>
+                    </div>
+                </div>
+                <picture class="picture">
+                    <source media="(max-width: 425px)"
+                        srcset="./assets/images/pattern-divider-mobile.svg">
+                    <img src="./assets/images/pattern-divider-desktop.svg" alt="">
+                </picture>
+            </div>
+            <button class="button advice_dice">
+                <img class="button_icon" src="./assets/images/icon-dice.svg" alt="">
+            </button>
+        </article>
+    </main>
 </body>
 </html>
