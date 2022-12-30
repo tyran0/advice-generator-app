@@ -1,1 +1,40 @@
 @use 'constants' as c;
+@use 'partials' as p;
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: c.$col-neutral_blue16;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 0 1rem;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.picture {
+    display: block;
+    width: fit-content;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button_icon {
+    display: block;
+}

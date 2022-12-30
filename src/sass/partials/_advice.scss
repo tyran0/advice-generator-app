@@ -1,0 +1,47 @@
+@use '../constants' as c;
+
+.advice,
+.advice_container {
+    display: grid;
+    justify-items: center;
+}
+
+.advice {
+    &_header {
+        font-size: 0.75rem;
+        letter-spacing: 4px;
+        color: c.$col-primary_green66;
+    }
+
+    &_details {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: c.$col-primary_cyan86;
+    }
+}
+
+.advice_container {
+    gap: 1.25rem;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    padding-bottom: 3.5rem;
+    background-color: c.$col-neutral_blue24;
+}
+
+.advice_quote {
+    max-width: 444px;
+    text-align: center;
+    &::before { content: open-quote; }
+    &::after { content: close-quote; }
+}
+
+.advice_dice {
+    padding: 1.25rem;
+    margin-top: -2rem;
+    border-radius: 2.5rem;
+    transition: scale 150ms, rotate 500ms;
+    background-color: c.$col-primary_green66;
+
+    &-rotate { rotate: 180deg; }
+    &-scale { scale: 1.1; }
+}
