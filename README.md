@@ -33,7 +33,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-ETx2JEQAIy](https://www.frontendmentor.io/solutions/advice-generator-app-ETx2JEQAIy)
-- Live Site URL: [https://tyran0-advice-generator-app.netlify.app](https://tyran0-advice-generator-app.netlify.app)
 
 ## My process
 
